@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="./style/mobile.css" media="(max-width:992px)">
+    <link rel="stylesheet" href="./style/style.css" media="(min-width:993px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <button class="menu-key"><i class="menu fa fa-list" aria-hidden="true"></i></button>
+        <div class="hidden-header">
+            <button class="italic-key"><i class="fa fa-italic" aria-hidden="true"></i></button>
+            <button class="bold-key"><i class="fa fa-bold" aria-hidden="true"></i></button>
+            <button class="border-key title" >Border</button>
+            <div id="border-range">
+                <label for="">Border width :</label>
+                <input type="text">
+                <button class="ok-key"><i class="ok fa fa-check" aria-hidden="true"></i></button>
+            </div>
+            <div class="color-selection">
+                <label class="title">paragraph color :</label>
+                <div class="colors">
+                    <div id="color">
+                        <label for="">pink</label>
+                        <input type="radio" name="color" value="#EC407A" class="color">
+                    </div>
+                    <div id="color">
+                        <label for="">green</label>
+                        <input type="radio" name="color" value="#7CB342" class="color">
+                    </div>
+                    <div id="color">
+                        <label for="">blue</label>
+                        <input type="radio" name="color" value="#2196F3" class="color">
+                    </div>
+                </div>
+                <button class="color-select"><i class="ok fa fa-check" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="paragraph"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore necessitatibus dolor minima neque porro dignissimos veritatis eos eligendi veniam commodi, eius itaque magni dicta sed, enim corrupti! Eaque tenetur saepe nihil culpa quas! Adipisci voluptate dolore aliquam consectetur corporis voluptates.</p></div>
+    </main>
+    <script src="./script/script.js"></script>
+</body>
+</html>
